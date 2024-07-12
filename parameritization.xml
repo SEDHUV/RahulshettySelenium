@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parameters">
+    <parameter name="url" value="sedhus"/>
+    <test name="smoke">
+        <classes>
+            <class name="testNg_rahulshetty.demo"></class>
+            <class name="testNg_rahulshetty.demo1"></class>
+        </classes>
+    </test>
+
+    <test name="smoke12">
+        <parameter name="url" value="qaclickacademy.com"></parameter>
+        <parameter name="url1" value="qaclick"></parameter>
+        <classes>
+
+            <class name="testNg_rahulshetty.demo2"></class>
+        </classes>
+    </test>
+
+</suite>

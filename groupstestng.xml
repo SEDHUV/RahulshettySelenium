@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression">
+    <groups>
+        <run>
+<!--            <include name="smoke"/>-->
+            <exclude name="smoke"/>
+        </run>
+
+    </groups>
+
+    <test name="smoke">
+        <classes>
+                <class name="testNg_rahulshetty.demo2"></class>
+               <class name="testNg_rahulshetty.demo"></class>
+                <class name="testNg_rahulshetty.demo1"></class>
+            </classes>
+    </test>
+
+
+
+
+
+
+
+</suite>

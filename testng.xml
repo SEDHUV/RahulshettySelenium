@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="demotest">
+    <classes>
+        <class name="testNg_rahulshetty.demo">
+            <methods>
+                <exclude name="demo.*">//used to delete all testcases which have demo in their name
+        </exclude>
+            </methods>
+        </class>
+        <class name="testNg_rahulshetty.demo2"></class>
+    </classes>
+</test>
+
+    <test name="separated">
+        <classes>
+            <class name="testNg_rahulshetty.demo1">
+        </class>
+        </classes>
+    </test>
+</suite>
+
